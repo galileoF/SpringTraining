@@ -15,6 +15,6 @@ public class GreeterTest {
 	}
 	@Test
 	public void greeterSaysGoodbye(){
-		assertThat(greeter.sayGoodbye(), continsString("Goodbye"));
+		assertThat(greeter.sayGoodbye(), containsString("Goodbye"));
 	}
 }
